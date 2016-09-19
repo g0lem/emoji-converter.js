@@ -1,2 +1,10 @@
 # emoji-converter.js
-Convert your emojis from the :wink: format to unicode -> 😉
+Convert your emojis from the ":emoji:" format to unicode -> 😀 
+
+
+
+Example:
+
+    var normalString = "Hello there, :wink:, this is a test to see the emojies in action :a: :b: :ab:"
+    var emojiString = emojiConvert(normalString);  //transforms normalString that has :emoji: type caracters into unicode
+
